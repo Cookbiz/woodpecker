@@ -1,0 +1,19 @@
+{
+    "name": "cookbiz/woodpecker",
+    "description": "キツツキみたいにURLを突きまくるので、woodpeckerにしました。",
+    "type": "project",
+    "require": {
+        "fabpot/goutte": "^3.1"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.2",
+        "fzaninotto/faker": "^1.6"
+    },
+    "license": "MIT Lisence",
+    "authors": [
+        {
+            "name": "TomoyukiSugita",
+            "email": "t-sugita@cookbiz.jp"
+        }
+    ]
+}
