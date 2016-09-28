@@ -3,11 +3,20 @@
     "description": "キツツキみたいにURLを突きまくるので、woodpeckerにしました。",
     "type": "project",
     "require": {
-        "fabpot/goutte": "^3.1"
+        "fabpot/goutte": "^3.1",
+        "symfony/console": "2.*",
+        "symfony/yaml": "2.*",
+        "robmorgan/phinx": "^0.6.4",
+        "symfony/filesystem": "2.*"
     },
     "require-dev": {
         "codeception/codeception": "^2.2",
         "fzaninotto/faker": "^1.6"
+    },
+    "autoload": {
+      "psr-4": {
+        "Cookbiz\\Woodpecker\\": "src/"
+      }
     },
     "license": "MIT Lisence",
     "authors": [
