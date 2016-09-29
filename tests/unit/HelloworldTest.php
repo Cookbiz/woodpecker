@@ -16,6 +16,6 @@ class HelloworldTest extends \PHPUnit_Framework_TestCase
     public function testMe()
     {
         // わざと落ちるテスト
-        $this->assertTrue(false);
+//        $this->assertTrue(false);
     }
 }

@@ -3,6 +3,8 @@ Crawl your web pages and find errors.
 
 キツツキみたいにURLを突きまくるので、woodpeckerにしました。
 
+[![Build Status](https://travis-ci.org/Cookbiz/woodpecker.svg?branch=master)](https://travis-ci.org/Cookbiz/woodpecker)
+
 # Test
 
 ```
