@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="CakePHP Plugin">
+<ruleset name="PSR2">
     <file>./src</file>
     <arg name="report" value="full"/>
     <arg name="report" value="diff"/>
