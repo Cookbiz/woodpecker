@@ -11,7 +11,8 @@
     },
     "require-dev": {
         "codeception/codeception": "^2.2",
-        "fzaninotto/faker": "^1.6"
+        "fzaninotto/faker": "^1.6",
+        "squizlabs/php_codesniffer": "^2.7"
     },
     "autoload": {
       "psr-4": {
