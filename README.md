@@ -6,7 +6,7 @@ Crawl your web pages and find errors.
 # Test
 
 ```
-vender/bin/codecept run
+vendor/bin/codecept run
 ```
 
 
