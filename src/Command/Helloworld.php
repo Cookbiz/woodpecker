@@ -17,9 +17,9 @@ class Helloworld extends Command
     }
 
     /**
-     * @param InputInterface  $input
+     * @param InputInterface $input
      * @param OutputInterface $output
-     * @return int|null
+     * @return void
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
@@ -28,7 +28,5 @@ class Helloworld extends Command
         $output->writeln(sprintf('Hello world %s!!', $name), $output::OUTPUT_PLAIN);
         $output->writeln(sprintf('Hello world %s!!', $name), $output::OUTPUT_NORMAL);
         $output->writeln(sprintf('Hello world %s!!', $name), $output::OUTPUT_RAW);
-
-        return parent::execute($input, $output);
     }
 }
