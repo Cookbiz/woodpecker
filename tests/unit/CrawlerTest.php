@@ -35,6 +35,7 @@ class CrawlerTest extends \Codeception\Test\Unit
 
     /**
      * @expectedException \Exception
+     * @expectedExceptionMessage use `::setRequestUri` at first
      */
     public function testException()
     {
